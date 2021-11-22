@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:gravity="center"
+        android:text="ようこそ！"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/hello2"
+        android:layout_width="match_parent"
+        android:layout_height="347dp"
+        android:gravity="center"
+        android:text="これから頑張っていきましょう！"
+        android:textSize="60dp" />
+</LinearLayout>

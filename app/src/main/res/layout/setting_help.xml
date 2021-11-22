@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/setting_help_contents"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:text="お問い合わせ内容"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <TextView
+        android:id="@+id/setting_help1"
+        android:layout_width="98dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:text="設定"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/setting_help_button1"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/setting_help_button1"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_width="51dp"
+        android:layout_height="46dp"
+        android:text="＜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/setting" />
+
+    <TextView
+        android:id="@+id/setting_help2"
+        android:layout_width="142dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:text="ヘルプ/よくある質問"
+        app:layout_constraintStart_toEndOf="@+id/setting_help1"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/setting_help_button2"
+        android:layout_width="124dp"
+        android:layout_height="46dp"
+        android:text="お問い合わせ"
+        android:textColor="#808080"
+        android:textSize="15dp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/setting_help2"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/setting_help3"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:text="■よくある質問"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/setting_help4"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:text="このアプリは無料？"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/setting_help5"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:text="iPadと同期・共有はできない？"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:id="@+id/setting_help6"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:text="スタンプの意味は？"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <TextView
+        android:id="@+id/setting_help7"
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:text="機種変更をするが引継方法は？"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/setting_help8"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:text="朝と夜にそれぞれ入力したい"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <TextView
+        android:id="@+id/setting_help9"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:text="目標体重を変更したい"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <TextView
+        android:id="@+id/setting_help10"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:text="BMIを確認したい"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <EditText
+        android:id="@+id/setting_help_txt"
+        android:layout_width="415dp"
+        android:layout_height="289dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

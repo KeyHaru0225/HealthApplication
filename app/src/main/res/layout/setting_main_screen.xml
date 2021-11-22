@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/setting_main_screen1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="324dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="設定　アプリ情報"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/setting_main_screen_button1"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:text="＜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/setting"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/setting_main_screen2"
+        android:layout_width="252dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="身長"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    // textを〇〇㎝になるようにする
+    <TextView
+        android:id="@+id/setting_main_screen3"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="　㎝"
+        app:layout_constraintStart_toEndOf="@+id/setting_main_screen2"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <Button
+        android:id="@+id/setting_main_screen_button2"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/setting_main_screen3"
+        tools:layout_editor_absoluteY="68dp" />
+
+
+    <TextView
+        android:id="@+id/setting_main_screen4"
+        android:layout_width="252dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="目標体重"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    // textを〇〇㎏になるようにする
+    <TextView
+        android:id="@+id/setting_main_screen5"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="　㎏"
+        app:layout_constraintStart_toEndOf="@+id/setting_main_screen4"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <Button
+        android:id="@+id/setting_main_screen_button3"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/setting_main_screen5"
+        tools:layout_editor_absoluteY="128dp" />
+
+
+    <TextView
+        android:id="@+id/setting_main_screen6"
+        android:layout_width="252dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="体脂肪率の入力"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/setting_main_screen_chip1"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        app:backgroundTint="#ffc0cb"
+        app:chipBackgroundColor="#ffc0cb"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <TextView
+        android:id="@+id/setting_main_screen7"
+        android:layout_width="252dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="スタンプの入力"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/setting_main_screen_chip2"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        app:backgroundTint="#ffc0cb"
+        app:chipBackgroundColor="#ffc0cb"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+
+    <TextView
+        android:id="@+id/setting_main_screen8"
+        android:layout_width="252dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="メモの入力"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/setting_main_screen_chip3"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        app:backgroundTint="#ffc0cb"
+        app:chipBackgroundColor="#ffc0cb"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+
+    <TextView
+        android:id="@+id/setting_main_screen9"
+        android:layout_width="252dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="カレンダーの開始日の変更"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <TextView
+        android:id="@+id/setting_main_screen10"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="日曜"
+        app:layout_constraintStart_toEndOf="@+id/setting_main_screen9"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <Button
+        android:id="@+id/setting_main_screen_button4"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/setting_main_screen10"
+        tools:layout_editor_absoluteY="499dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

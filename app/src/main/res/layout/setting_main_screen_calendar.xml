@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/setting_main_screen_calendar_sat"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="土曜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="636dp" />
+
+    <Button
+        android:id="@+id/setting_main_screen_calendar_fri"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="金曜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="556dp" />
+
+    <Button
+        android:id="@+id/setting_main_screen_calendar_thu"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="木曜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <Button
+        android:id="@+id/setting_main_screen_calendar_wed"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="水曜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <Button
+        android:id="@+id/setting_main_screen_calendar_tue"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="火曜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:id="@+id/setting_main_screen_calendar1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="324dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="曜日　設定"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/setting_main_screen_calendar_button1"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:text="＜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/setting" />
+
+    <Button
+        android:id="@+id/setting_main_screen_calendar_button2"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:text="キャンセル"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <Button
+        android:id="@+id/setting_main_screen_calendar_button3"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:text="OK"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <Button
+        android:id="@+id/setting_main_screen_calendar_sun"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="日曜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <Button
+        android:id="@+id/setting_main_screen_calendar_mon"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="月曜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

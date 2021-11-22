@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/setting_information1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="324dp"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="設定　アプリ情報"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/setting_information_button1"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:text="＜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/setting" />
+
+
+    <TextView
+        android:id="@+id/setting_information2"
+        android:layout_width="245dp"
+        android:layout_height="38dp"
+        android:text="利用規約"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <Button
+        android:id="@+id/setting_information_button2"
+        android:layout_width="74dp"
+        android:layout_height="38dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/setting_information2"
+        tools:layout_editor_absoluteY="115dp" />
+
+
+    <TextView
+        android:id="@+id/setting_information3"
+        android:layout_width="245dp"
+        android:layout_height="38dp"
+        android:text="プライバシーポリシー"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <Button
+        android:id="@+id/setting_information_button3"
+        android:layout_width="74dp"
+        android:layout_height="38dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+
+    <TextView
+        android:id="@+id/setting_information4"
+        android:layout_width="245dp"
+        android:layout_height="38dp"
+        android:text="解析及び改善"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <Button
+        android:id="@+id/setting_information_button4"
+        android:layout_width="74dp"
+        android:layout_height="38dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+
+    <TextView
+        android:id="@+id/setting_information5"
+        android:layout_width="245dp"
+        android:layout_height="38dp"
+        android:text="アプリレビューする"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <Button
+        android:id="@+id/setting_information_button5"
+        android:layout_width="74dp"
+        android:layout_height="38dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="338dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+
+    <TextView
+        android:id="@+id/setting_information6"
+        android:layout_width="245dp"
+        android:layout_height="38dp"
+        android:text="友人にアプリを教える"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:id="@+id/setting_information_button6"
+        android:layout_width="74dp"
+        android:layout_height="38dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="338dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

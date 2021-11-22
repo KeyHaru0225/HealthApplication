@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    // 左にアイコンマークを入れる
+    <TextView
+        android:id="@+id/main_setting_tittle"
+        android:layout_width="182dp"
+        android:layout_height="58dp"
+        android:text="設定"
+        android:gravity="center"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/main_setting_1"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:gravity="left"
+        android:text="アプリ基本設定"
+        app:layout_constraintEnd_toStartOf="@+id/main_setting_button1"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/main_setting_button1"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+
+    <TextView
+        android:id="@+id/main_setting_2"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:text="テーマカラー"
+        app:layout_constraintEnd_toStartOf="@+id/main_setting_button2"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:id="@+id/main_setting_button2"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/main_setting_3"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:text="アプリアイコンの設定"
+        app:layout_constraintEnd_toStartOf="@+id/main_setting_button2"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <Button
+        android:id="@+id/main_setting_button3"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+
+    <TextView
+        android:id="@+id/main_setting_4"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:text="入力忘れ防止の通知"
+        app:layout_constraintEnd_toStartOf="@+id/main_setting_button4"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/main_setting_button4"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <TextView
+        android:id="@+id/main_setting_5"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:text="パスワードロック"
+        app:layout_constraintEnd_toStartOf="@+id/main_setting_button5"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/main_setting_button5"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <TextView
+        android:id="@+id/main_setting_6"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:text="データバックアップ/復元"
+        app:layout_constraintEnd_toStartOf="@+id/main_setting_button6"
+        app:layout_constraintTop_toBottomOf="@+id/main_setting_5" />
+
+    <Button
+        android:id="@+id/main_setting_button6"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+
+    <TextView
+        android:id="@+id/main_setting_7"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="ヘルプ/よくある質問"
+        app:layout_constraintEnd_toStartOf="@+id/main_setting_button6"
+        app:layout_constraintTop_toBottomOf="@+id/main_setting_5" />
+
+    <Button
+        android:id="@+id/main_setting_button7"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <TextView
+        android:id="@+id/main_setting_8"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="アプリ情報"
+        app:layout_constraintEnd_toStartOf="@+id/main_setting_button6"
+        app:layout_constraintTop_toBottomOf="@+id/main_setting_5" />
+
+    <Button
+        android:id="@+id/main_setting_button8"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="546dp" />
+
+    <TextView
+        android:id="@+id/main_setting_9"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="言語の変更"
+        app:layout_constraintEnd_toStartOf="@+id/main_setting_button6"
+        app:layout_constraintTop_toBottomOf="@+id/main_setting_5" />
+
+    <Button
+        android:id="@+id/main_setting_button9"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+
+    <TextView
+        android:id="@+id/main_setting_10"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="全データを削除する"
+        app:layout_constraintEnd_toStartOf="@+id/main_setting_button6"
+        app:layout_constraintTop_toBottomOf="@+id/main_setting_5" />
+
+    <Button
+        android:id="@+id/main_setting_button10"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

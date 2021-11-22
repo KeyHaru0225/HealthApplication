@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/setting"
+        android:layout_width="324dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="一般設定"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/setting_button"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:text="＜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        android:onClick="setting_button_onClick"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/low_fat_percentage"
+        android:layout_width="298dp"
+        android:layout_height="50dp"
+        android:text="低脂肪率も記録"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:id="@+id/pass_lock"
+        android:layout_width="298dp"
+        android:layout_height="50dp"
+        android:text="パスワードロック"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/low_fat_percentage" />
+
+    <TextView
+        android:id="@+id/preventing_forgetting_to_enter"
+        android:layout_width="298dp"
+        android:layout_height="50dp"
+        android:text="入力忘れ防止機能"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <TextView
+        android:id="@+id/text_preventing_forgetting_to_enter"
+        android:layout_width="406dp"
+        android:layout_height="153dp"
+        android:text="記録の習慣を付けるために入力忘れ防止機能をおすすめいたします。この設定は、後から変更可能です。"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preventing_forgetting_to_enter" />
+
+    <Button
+        android:id="@+id/setting_completed"
+        android:layout_width="150dp"
+        android:layout_height="41dp"
+        android:text="設定完了"
+        android:onClick="setting_completed_onClick"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="651dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/setting_chip1"
+        android:layout_width="86dp"
+        android:layout_height="46dp"
+        android:onClick="setting_chip1_onClick"
+        app:backgroundTint="#ffc0cb"
+        app:chipBackgroundColor="#ffc0cb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/low_fat_percentage"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/setting_chip2"
+        android:layout_width="86dp"
+        android:layout_height="46dp"
+        android:onClick="setting_chip2_onClick"
+        app:backgroundTint="#ffc0cb"
+        app:chipBackgroundColor="#ffc0cb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pass_lock"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/setting_chip3"
+        android:layout_width="86dp"
+        android:layout_height="46dp"
+        android:onClick="setting_chip3_onClick"
+        app:backgroundTint="#ffc0cb"
+        app:chipBackgroundColor="#ffc0cb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/preventing_forgetting_to_enter"
+        tools:layout_editor_absoluteY="389dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/food_btn"
+        android:layout_width="146dp"
+        android:layout_height="35dp"
+        android:text="保存"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="627dp" />
+
+    <EditText
+        android:id="@+id/food_snack_txt"
+        android:layout_width="325dp"
+        android:layout_height="35dp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="592dp" />
+
+    <EditText
+        android:id="@+id/food_dinner_txt"
+        android:layout_width="325dp"
+        android:layout_height="35dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <EditText
+        android:id="@+id/food_lunch_txt"
+        android:layout_width="325dp"
+        android:layout_height="35dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <ImageView
+        android:id="@+id/food_snack_img"
+        android:layout_width="325dp"
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <ImageView
+        android:id="@+id/food_dinner_img"
+        android:layout_width="325dp"
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <ImageView
+        android:id="@+id/food_lunch_img"
+        android:layout_width="325dp"
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextView
+        android:id="@+id/food_date"
+        android:layout_width="182dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/food_button1"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:text="＜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <Button
+        android:id="@+id/food_button2"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <Button
+        android:id="@+id/food_morning_btn"
+        android:layout_width="85dp"
+        android:layout_height="100dp"
+        android:text="朝食"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:id="@+id/food_morning_memo"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:text="メモ"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <Button
+        android:id="@+id/food_lunch_btn"
+        android:layout_width="85dp"
+        android:layout_height="100dp"
+        android:text="昼食"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextView
+        android:id="@+id/food_lunch_memo"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:text="メモ"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:id="@+id/food_dinner_btn"
+        android:layout_width="85dp"
+        android:layout_height="100dp"
+        android:text="夕食"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/food_dinner_memo"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:text="メモ"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    //　アイコン5つ入れる
+
+    <Button
+        android:id="@+id/food_snack_btn"
+        android:layout_width="85dp"
+        android:layout_height="100dp"
+        android:text="間食"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <TextView
+        android:id="@+id/food_snack_memo"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:text="メモ"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="592dp" />
+
+    <selector xmlns:android="http://schemas.android.com/apk/res/android" />
+
+    <item
+        android:id="@+id/item2"
+        android:drawable="@drawable/input_32"
+        android:state_selected="true" />　
+    <item android:drawable="@drawable/input_32_off" />
+
+    <ImageButton
+        android:id="@+id/imageView_input"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/input_32"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <item android:drawable="@drawable/input_32" />
+
+
+
+
+    <selector xmlns:android="http://schemas.android.com/apk/res/android" />
+    <item android:state_selected="true"
+        android:drawable="@drawable/calendar_32" />　
+    <item android:drawable="@drawable/calendar_32_off" />
+
+    <ImageButton
+        android:id="@+id/imageView_calendar"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView_input"
+        app:srcCompat="@drawable/calendar_32"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <item android:drawable="@drawable/calendar_32" />
+
+
+
+
+    <selector xmlns:android="http://schemas.android.com/apk/res/android" />
+    <item android:state_selected="true"
+        android:drawable="@drawable/graph_32" />　
+    <item android:drawable="@drawable/graph_32_off" />
+
+    <ImageButton
+        android:id="@+id/imageView_graph"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView_calendar"
+        app:srcCompat="@drawable/graph_32"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <item android:drawable="@drawable/graph_32" />
+
+
+
+    <selector xmlns:android="http://schemas.android.com/apk/res/android" />
+
+    <item
+        android:drawable="@drawable/food_32"
+        android:state_selected="true"
+        app:layout_constraintStart_toEndOf="@+id/imageView_moon"
+        tools:layout_editor_absoluteY="186dp" />
+    <item android:drawable="@drawable/food_32_off" />
+
+
+    <ImageButton
+        android:id="@+id/imageView_food"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView_graph"
+        app:srcCompat="@drawable/food_32"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <item android:drawable="@drawable/food_32" />
+
+
+    <item
+        android:drawable="@drawable/exercise_32"
+        android:state_selected="true"
+        app:layout_constraintEnd_toStartOf="parent"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <item android:drawable="@drawable/exercise_32_off" />
+
+    <ImageButton
+        android:id="@+id/imageView_exercise"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/exercise_32"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <item
+        android:drawable="@drawable/exercise_32"
+        app:layout_constraintBottom_toBottomOf="@+id/item2" />
+
+    <ImageView
+        android:id="@+id/food_morning_img"
+        android:layout_width="325dp"
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <EditText
+        android:id="@+id/food_morning_txt"
+        android:layout_width="325dp"
+        android:layout_height="35dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

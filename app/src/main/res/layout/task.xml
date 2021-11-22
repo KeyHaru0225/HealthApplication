@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/task_txt2"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <EditText
+        android:id="@+id/task_txt3"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/task_date"
+        android:layout_width="182dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/task_button1"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:text="＜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    // textを「今日の達成率5/5！」のようにする
+    //　Toast表示で「すごい！」「少しずつ頑張って行こう！」などをif文で条件分岐文を作成する。
+
+    <Button
+        android:id="@+id/task_button2"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:text="＞"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    // taskのtextにはユーザーが入力できるようにする
+
+    <TextView
+        android:id="@+id/task_chat"
+        android:layout_width="125dp"
+        android:layout_height="97dp"
+        android:text="今日の達成率:"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <EditText
+        android:id="@+id/task1"
+        android:layout_width="300dp"
+        android:layout_height="67dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="76dp"
+        android:layout_height="67dp"
+        android:text=""
+        android:checked="true"
+        app:layout_constraintEnd_toStartOf="@+id/task1"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <EditText
+        android:id="@+id/task2"
+        android:layout_width="300dp"
+        android:layout_height="67dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="76dp"
+        android:layout_height="67dp"
+        android:text=""
+        android:checked="true"
+        app:layout_constraintEnd_toStartOf="@+id/task2"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <EditText
+        android:id="@+id/task3"
+        android:layout_width="300dp"
+        android:layout_height="67dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="76dp"
+        android:layout_height="67dp"
+        android:text=""
+        android:checked="true"
+        app:layout_constraintEnd_toStartOf="@+id/task3"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/task_memo1"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:text="メモ："
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <TextView
+        android:id="@+id/task_mamo2"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:text="メモ："
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/task_memo3"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:text="メモ："
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <EditText
+        android:id="@+id/task_txt1"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <TextView
+        android:id="@+id/task_achievement"
+        android:layout_width="200dp"
+        android:layout_height="97dp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <Button
+        android:id="@+id/task_completed"
+        android:layout_width="150dp"
+        android:layout_height="41dp"
+        android:text="登録"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="676dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

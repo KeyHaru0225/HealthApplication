@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/setting_data1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="324dp"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="設定　データ削除"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/setting_button_data1"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:text="＜"
+        android:textColor="#808080"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/setting" />
+
+    <TextView
+        android:id="@+id/setting_data2"
+        android:layout_width="412dp"
+        android:layout_height="81dp"
+        android:text="記録した全てのデータを削除する"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/setting_data_button2"
+        android:layout_width="188dp"
+        android:layout_height="62dp"
+        android:text="削除する"
+        app:backgroundTint="#ffc0cb"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
