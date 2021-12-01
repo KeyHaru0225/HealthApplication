@@ -45,10 +45,20 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.activity:activity-ktx:1.2.0-alpha04'
 
+
+    // https://mvnrepository.com/artifact/javax.mail/mail
+    implementation group: 'javax.mail', name: 'mail', version: '1.5.0-b01'
+    implementation 'com.sun.mail:javax.mail:v1.4.7'
+    implementation 'javax.mail:mail:v1.5.0-b01'
+    implementation 'com.sun.mail:javax.mail:v1.6.1'
+    implementation 'org.simplejavamail:simple-java-mail:v4.4.4'
+
+
     compile 'com.android.support:support-v4:13.0.+'
     compile 'com.android.support:appcompat-v7:18.0.+'
 
     compile "org.grails.plugins:mail:2.0.0.RC6"
+    compile 'javax.mail:mail:1.4.7'
 
 }
 
@@ -60,5 +70,6 @@ allprojects {
         maven {url 'https://jitpack.io'}
         google()
         maven { url 'https://maven.google.com/' }
+        maven { url 'https://mvnrepository.com/artifact/javax.mail/mail'}
     }
 }

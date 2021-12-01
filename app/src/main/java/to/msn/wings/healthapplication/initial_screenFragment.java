@@ -45,7 +45,7 @@ public class initial_screenFragment extends AppCompatActivity {
     static final private String DBNAME = "initial.sqlite";
     static final private int VERSION = 1;
     static final int REQUEST_GET_IMAGE = 100;
-    private static final int CONTEXT_MENU_IMAGE_VIEW_ITEM_ID_1;
+    // private static final int CONTEXT_MENU_IMAGE_VIEW_ITEM_ID_1;
     private boolean flg = true;    // イメージボタンの判定で使用
 
     private TextView mInitial_date;
@@ -306,7 +306,7 @@ public class initial_screenFragment extends AppCompatActivity {
     }
 
 
-    // 消すかも　現在日時の取得
+    // 削除予定　現在日時の取得
     public static String getNowDate() {
         DateFormat df = new SimpleDateFormat("yyyy/MM/dd");
         Date mInitial_date = new Date(System.currentTimeMillis());
